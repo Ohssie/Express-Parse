@@ -1,0 +1,53 @@
+{
+  "name": "parse-server-example",
+  "version": "1.4.0",
+  "description": "An example Parse API server using the parse-server module",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParsePlatform/parse-server-example.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "body-parser": "^1.16.1",
+    "compression": "^1.6.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.5",
+    "ejs-lint": "^0.3.0",
+    "express": "~4.11.x",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.1",
+    "glob": "^7.1.1",
+    "google-distance": "^1.0.1",
+    "google-distance-matrix": "^1.0.0",
+    "google-locations": "^0.2.0",
+    "kerberos": "~0.0.x",
+    "locutus": "^2.0.9",
+    "method-override": "^2.3.7",
+    "morgan": "^1.8.1",
+    "parse": "~1.8.0",
+    "parse-dashboard": "1.0.26",
+    "parse-server": "2.4.1",
+    "path": "^0.12.7",
+    "search-google-geocode": "0.0.13",
+    "simple-line-icons": "^2.4.1",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  },
+  "bugs": {
+    "url": "https://github.com/ParsePlatform/parse-server-example/issues"
+  },
+  "homepage": "https://github.com/ParsePlatform/parse-server-example#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": ""
+}
